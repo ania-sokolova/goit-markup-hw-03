@@ -141,7 +141,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
 }
 
 .hero-btn {
@@ -160,6 +160,8 @@ img {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -167,8 +169,11 @@ img {
     background-color: #404bbf;
 }
 
+.section {
+    padding: 120px 0 120px;
+}
 
-.section-team {
+.features-section {
     background-color: #fff;
 }
 
@@ -177,8 +182,8 @@ img {
   }
   
 
-.visually-hidden {
- position: absolute;
+  .visually-hidden {
+  position: absolute;
   clip-path: inset(100%);
   white-space: nowrap;
   overflow: hidden;
@@ -195,7 +200,7 @@ img {
 }
 
 .features-list-item {
-flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -215,7 +220,9 @@ flex-basis: calc((100% - 72px) / 4);
     color: #434455;
 }
 
-
+.section {
+    padding: 120px 0 120px
+}
 
 .section-team {
     background-color: #f4f4fd;
@@ -268,6 +275,7 @@ flex-basis: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .member-role {
@@ -279,7 +287,12 @@ flex-basis: calc((100% - 72px) / 4);
     color: #434455;
 }
 
-.portfolio {
+.section { 
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
+.portfolio-section {
     background-color: #fff;
 }
 
@@ -301,8 +314,6 @@ flex-basis: calc((100% - 72px) / 4);
 }
 
     
-
-
 .portfolio-list {
     display: flex;
     justify-content: center;
@@ -324,12 +335,9 @@ flex-basis: calc((100% - 72px) / 4);
   }
 
   .item-content {
-    padding-top: 32px; 
-    padding-right: auto; 
-    padding-bottom: 32px; 
-    padding-left: 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px
   }
   
 
