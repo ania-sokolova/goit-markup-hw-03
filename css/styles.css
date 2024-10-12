@@ -385,11 +385,9 @@ img {
     display: inline-block;
 }
 
-.page-footer .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
+/*.page-footer .container {
+      
+}*/
 
 .footer-text {
     font-weight: 400;
